@@ -1,0 +1,509 @@
+#button {
+ size: 50px;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  margin: 9px;
+  border: 4px;
+  border-radius: 5px;
+  border: 2px solid orangered;
+  background: linear-gradient(45deg, orangered 50%, white 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+  color: #fff; /*For IE*/
+}
+
+#button,
+#button:after {
+
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s, font-size 0.2s;
+}
+
+#button:hover,
+#button:hover:after {
+  background-position: 0;
+  font-size: 2.1em;
+
+  color: green; /*For IE*/
+}
+#b1 {
+ size: 50px;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin: 9px;
+  border: 4px;
+  border-radius: 5px;
+  border: 2px solid orangered;
+  background: linear-gradient(45deg, orangered 50%, white 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+  color: #fff; /*For IE*/
+}
+
+#b1,
+#b1:after {
+
+  background-size: 300%;
+  background-position: 100%;
+  transition: 1s, font-size 0.2s;
+}
+
+#b1:hover,
+#b1:hover:after {
+  background-position: 0;
+  font-size: 1.5em;
+
+  color: green; /*For IE*/
+}
+
+
+
+
+
+table{
+  position: relative;
+
+table-layout:fixed;
+
+background-color: white;
+margin: 5px;
+
+
+ font-family: 'Dancing Script', cursive;
+}
+td{
+  width: 5px;
+  height: 5px;
+    padding: 5px;
+}
+
+#tabl{
+  
+  height: 200px;
+  border: 12px;
+  border-color: red;
+overflow-x: auto;
+overflow-y: auto;
+
+
+}
+
+#color1,#color2{
+  background-color: white;
+size: 30px;
+width: 97px;
+height: 45px;
+border-color: white;
+border-radius: 9px;
+  box-shadow: inset 8px 3px 18px -4px rgba(0, 0, 0, 0.8);
+margin: 6px;
+transition: 0.4s;
+
+
+}
+#color1:hover{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 100px;
+ display: none;
+ justify-content: center;
+  align-items: center;
+ left: 11%;
+ }
+
+.modal-contents {
+  height: 450px;
+  width: 700px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-style:solid;
+  border-color: red;  
+  border-radius: 6px;
+}
+
+
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: red;
+  transform: rotate(45deg);
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+}
+/*thegame*/
+.g_header h1{
+top:20px;
+width: 100%;
+font-size: 32px;
+height: 15%;
+padding-top: 25px;
+background-color: #ecfef1;
+box-sizing: border-box;
+
+}
+.g_header{
+  margin-top : 20px;
+}
+
+
+
+
+
+
+
+
+h1 {
+  padding: 8px;
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 8px;
+  margin: 0;
+  font-size: 64px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Inputs */
+
+
+
+/* Banner */
+
+#banner {
+margin-top: -20px;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.4) url("img/10.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+}
+
+
+
+
+#banner h3 {
+  background: black;
+   font-family: 'Dancing Script', cursive;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-size: 24px;
+}
+
+.size{
+   font-family: 'Dancing Script', cursive;
+   font-size: 40px;
+   background: rgba(255, 0, 0, 0.8);
+   border-radius: 8px;
+
+}
+input {
+  text-align: center;
+  color: black;
+  height: 32px;
+  padding: 0 16px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  border: none;
+  box-shadow: inset 8px 3px 18px -4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* Navigation */
+
+nav {
+
+  height: 102px;
+  background: transparent;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+font-family: 'Dancing Script', cursive;
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 0 0;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+nav a {
+  padding: 0 22px;
+  margin-right: 40px;
+  color: white;
+  transition: 0.4s;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.active {
+  color: #f783ae;
+}
+
+
+#head_ing h3{
+font-family: 'Dancing Script', cursive;
+color:white;
+margin-top: 40px;
+font-size: 40px;
+margin-left: 20px;
+
+
+}
+
+#menu-icon {
+  height: 100%;
+  font-size: 28px;
+  padding: 0 4px;
+  color: white;
+  display: none;
+  align-items: center;
+}
+
+/* Slideout Menu */
+
+#slideout-menu {
+  display: none;
+   font-family: 'Dancing Script', cursive;
+  background: black;
+  z-index: 100;
+  position: fixed;
+  transition: 0.4s;
+  margin-top: 72px;
+  width: 100%;
+  text-align: center;
+  opacity:0;
+  pointer-events:none;
+}
+
+#slideout-menu ul {
+  list-style: none;
+  padding: 0 32px;
+}
+
+#slideout-menu ul li {
+  padding: 8px;
+}
+
+#slideout-menu a {
+ font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  color: white;
+}
+
+
+
+footer {
+  background: black;
+  padding: 8px;
+  color: #eee;
+  display: flex;
+
+}
+
+footer a {
+  color: white;
+   font-family: 'Dancing Script', cursive;
+   font-size: 48px;
+}
+
+
+
+footer #right-footer {
+  flex: 2;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
+   font-family: 'Dancing Script', cursive;
+}
+
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-youtube,
+footer #social-media-footer a .fa-github {
+  color: white;
+  transition: 0.4s;
+}
+
+footer #social-media-footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+footer #social-media-footer ul li {
+  font-size: 48px;
+  padding: 16px;
+  transition: 0.4s;
+}
+
+footer #social-media-footer ul li:hover a .fa-youtube {
+  color: red;
+}
+
+footer #social-media-footer ul li:hover a .fa-facebook {
+  color: #3b5998;
+}
+
+footer #social-media-footer ul li:hover a .fa-github {
+  color: #bbb;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  #menu-icon {
+    display: flex;
+  }
+
+
+  #slideout-menu {
+    display: block;
+  }
+
+  
+
+  #sidebar{
+    display: none;
+  }
+}
+
+@media (max-width: 719px) {
+  main {
+    width: 95%;
+  }
+ 
+  footer {
+
+    flex-direction: column;
+    text-align: center;
+  }
+
+#bg-modal, .modal-contents{
+  width: 90%;
+  margin-left: -15px;
+}
+
+
+ 
+  footer #right-footer {
+    background: #eee;
+    color: black;
+    width: 104%;
+  }
+
+  footer #right-footer a {
+    color: black;
+  }
+
+  footer #social-media-footer a .fa-facebook,
+  footer #social-media-footer a .fa-youtube,
+  footer #social-media-footer a .fa-github {
+    color: black;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+
+@media (max-width: 310px){
+
+  h1 {
+    font-size: 42px;
+  }
+
+  #banner h3 {
+    font-size: 20px;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+ #head_ing h3{
+  
+  font-size: 25px;
+ }
+}
+
+@media (min-width: 720px) {
+  main {
+    width: 95%;
+  }
+  .card {
+    width: 45%;
+  }
+  .card .card-image img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 85%;
+  }
+  
+}
