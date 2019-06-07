@@ -1,4 +1,4 @@
-//creating a Dynamic table
+//c//creating a Dynamic table
 
 
 
@@ -45,17 +45,33 @@ var cols=x;
 for(var r=0; r< rows; r++){
 	table +='<tr>';
 	for(var c=0; c<cols; c++){
-		table +='<td  onclick="dom(this)" ondblclick="nodom(this)" >' + '</td>';
+		table +='<td  bgcolor="white" onclick="dom(this)"  >' + '</td>';
 
 	}
 	table +='</tr>';
 }
 mn=0;
-document.getElementById("tabl").innerHTML='<table border=1 >'+ table + '</table>';
-}
-var mn=0;
-function dom(a){
 
+document.getElementById("tabl").innerHTML='<table border=1  >'+ table + '</table>';
+for (var i = 0; i <= x*x; i++) {
+		document.getElementsByTagName("td")[i].style.backgroundColor="white";
+
+}
+
+}
+var op=1;
+
+ 
+
+var mn=0;
+var ui=1;
+
+
+function dom(a){
+	
+	 
+
+if(a.style.backgroundColor=="white"){
 if(mn==1){
 	var cv=document.getElementById("color2").value;
 }
@@ -63,12 +79,23 @@ else{
 var cv=document.getElementById("color1").value;
 }
 
-	//document.getElementsByTagName('td')[3].style.backgroundColor = cv;
+	
 a.style.backgroundColor = cv;
+
 }
-function nodom(b){
-	b.style.backgroundColor="white";
+else
+ if(a.style.backgroundColor!="white"){
+	if(mn==1){
+	var cv=document.getElementById("color2").value;
 }
+else{
+var cv=document.getElementById("color1").value;
+}
+a.style.backgroundColor = cv;
+	a.style.backgroundColor="white";
+
+}}
+
 
 var cj=document.getElementById("b1");
 
